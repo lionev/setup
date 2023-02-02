@@ -44,7 +44,7 @@ export function HabitDay({
           amountAccomplishedPercentage > 40 &&
           amountAccomplishedPercentage < 60,
         ["bg-violet-600 border-violet-400"]:
-          amountAccomplishedPercentage > 60 &&
+          amountAccomplishedPercentage >= 60 &&
           amountAccomplishedPercentage < 80,
       })}
       activeOpacity={0.7}
